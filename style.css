@@ -25,7 +25,7 @@
     flex-direction: column;
     padding-left: 10%;
 }
-.learn > h2{
+.learn > h1{
     color:whitesmoke;
     margin-bottom: 6%;
     font-size: 45px;
@@ -223,7 +223,7 @@ input[type="submit"]{
         padding-left: 10%;
         padding-top: 10%;
     }
-    .learn > h2{
+    .learn > h1{
         margin-bottom: 0%;
         font-size: 30px;
         font-weight: 500;
@@ -285,7 +285,7 @@ input[type="submit"]{
         padding-left: 10%;
         padding-top: 10%;
     }
-    .learn > h2{
+    .learn > h1{
         margin-bottom: 0%;
         font-size: 30px;
         font-weight: 500;
