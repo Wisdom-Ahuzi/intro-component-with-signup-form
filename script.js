@@ -67,7 +67,4 @@ submit.addEventListener('submit', (e)=>{
         four.style.outlineColor = 'rgba(209, 201, 201, 0.83)';
         four.style.border = ' .001px solid rgba(209, 201, 201, 0.83) '; 
     };
-    one.value = '';
-    two.value = '';
-    four.value = '';
 });
