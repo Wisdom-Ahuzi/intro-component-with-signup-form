@@ -41,7 +41,6 @@ submit.addEventListener('submit', (e)=>{
     const standard = mail.includes('@');
     const standarde = mail.includes('com');
     const standarder = mail.includes('.');
-    const placeHolder = 'email@example/com';
     const stand = standard && standarde && standarder;
     if (stand) {
         three1.style.display = 'none'; 
@@ -51,7 +50,6 @@ submit.addEventListener('submit', (e)=>{
     }else{
         three1.style.display = 'block'; 
         three2.style.display = 'block';
-        three.value= placeHolder;
         three.style.outlineColor = 'hsl(0, 100%, 74%)';
         three.style.border = ' 2px solid hsl(0, 100%, 74%)';
     };
